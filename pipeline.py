@@ -18,8 +18,8 @@ from sklearn.preprocessing import OneHotEncoder, StandardScaler
 # ============================================================
 RANDOM_STATE = 42
 
-GRAMMY_PATH = "/content/drive/MyDrive/last test/Copy of Grammy_IG_posts_v2.csv"
-ANALYTICS_PATH = "/content/drive/MyDrive/last test/Copy of Instagram_Analytics.csv"
+GRAMMY_PATH = "data/Grammy_IG_posts_v2.csv"
+ANALYTICS_PATH = "data/Instagram_Analytics.csv"
 
 ARTIFACT_PATH = "model_artifacts.joblib"
 
