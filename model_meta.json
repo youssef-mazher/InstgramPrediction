@@ -1,0 +1,95 @@
+{
+  "version": 1,
+  "n_trees": 150,
+  "feature_names": [
+    "followers",
+    "post_images",
+    "video",
+    "carousel",
+    "length_caption",
+    "number_hashtags",
+    "is_weekend",
+    "is_holiday",
+    "user_median_engagement",
+    "user_post_count",
+    "publication_weekday__Friday",
+    "publication_weekday__Monday",
+    "publication_weekday__Saturday",
+    "publication_weekday__Sunday",
+    "publication_weekday__Thursday",
+    "publication_weekday__Tuesday",
+    "publication_weekday__Wednesday",
+    "reach_time_bucket__low",
+    "reach_time_bucket__normal",
+    "reach_time_bucket__peak",
+    "caption_length_bucket__long",
+    "caption_length_bucket__medium",
+    "caption_length_bucket__short",
+    "caption_length_bucket__very_long",
+    "hashtag_bucket__high",
+    "hashtag_bucket__low",
+    "hashtag_bucket__medium",
+    "hashtag_bucket__none"
+  ],
+  "categorical_values": {
+    "publication_weekday": [
+      "Friday",
+      "Monday",
+      "Saturday",
+      "Sunday",
+      "Thursday",
+      "Tuesday",
+      "Wednesday"
+    ],
+    "reach_time_bucket": [
+      "low",
+      "normal",
+      "peak"
+    ],
+    "caption_length_bucket": [
+      "long",
+      "medium",
+      "short",
+      "very_long"
+    ],
+    "hashtag_bucket": [
+      "high",
+      "low",
+      "medium",
+      "none"
+    ]
+  },
+  "numeric_features": [
+    "followers",
+    "post_images",
+    "video",
+    "carousel",
+    "length_caption",
+    "number_hashtags",
+    "is_weekend",
+    "is_holiday",
+    "user_median_engagement",
+    "user_post_count"
+  ],
+  "categorical_features": [
+    "publication_weekday",
+    "reach_time_bucket",
+    "caption_length_bucket",
+    "hashtag_bucket"
+  ],
+  "target": "Engagement",
+  "random_state": 42,
+  "max_depth": 12,
+  "min_samples_leaf": 2,
+  "max_features": 0.8,
+  "training_rows": 51848,
+  "test_rows": 12962,
+  "metrics": {
+    "r2": 0.8671278604664616,
+    "rmse": 181809.01168020442,
+    "mae": 29837.63981439416
+  },
+  "default_user_median_engagement": 253.5,
+  "default_user_post_count": 232,
+  "cluster_info": null
+}
