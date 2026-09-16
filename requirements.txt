@@ -1,6 +1,0 @@
-streamlit
-joblib
-pandas
-numpy
-scikit-learn==1.9.1
-holidays
